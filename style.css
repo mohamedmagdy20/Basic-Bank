@@ -1,0 +1,496 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.icon-links .navlink {
+  padding-left: 10px;
+}
+.primarybackground {
+  background-color: #0078ff;
+}
+.primaryfont {
+  color: #fff;
+}
+.secoundarybackground {
+  background-color: #fff;
+}
+#header {
+  background: url("./image/showcase.jpeg") center center/cover no-repeat;
+}
+#header .layer {
+  background: rgba(0, 0, 0, 0.5);
+}
+.layer .contain h2::after {
+  content: "";
+  animation: typing 10s linear infinite;
+}
+@keyframes typing {
+  0% {
+    content: "E|";
+  }
+
+  1% {
+    content: "El|";
+  }
+
+  2% {
+    content: "Ele|";
+  }
+
+  3% {
+    content: "Elec|";
+  }
+
+  4% {
+    content: "Elect|";
+  }
+
+  5% {
+    content: "Electi|";
+  }
+
+  6% {
+    content: "Electir|";
+  }
+
+  7% {
+    content: "Electiri|";
+  }
+
+  8% {
+    content: "Electiric|";
+  }
+
+  9% {
+    content: "Electiric B|";
+  }
+
+  10% {
+    content: "Electiric Ba|";
+  }
+
+  11% {
+    content: "Electiric Ban|";
+  }
+
+  13% {
+    content: "Electiric Bank|";
+  }
+
+  14% {
+    content: "Electiric Ban|";
+  }
+
+  15% {
+    content: "Electiric Ba|";
+  }
+
+  16% {
+    content: "Electiric B|";
+  }
+
+  17% {
+    content: "Electiric |";
+  }
+
+  18% {
+    content: "Electiric|";
+  }
+
+  19% {
+    content: "Electiri|";
+  }
+
+  20% {
+    content: "Electir|";
+  }
+
+  21% {
+    content: "Electi|";
+  }
+
+  22% {
+    content: "Elect|";
+  }
+
+  23% {
+    content: "Elect|";
+  }
+
+  24% {
+    content: "Elec|";
+  }
+
+  25% {
+    content: "Ele|";
+  }
+
+  25% {
+    content: "El|";
+  }
+
+  26% {
+    content: "E|";
+  }
+
+  27% {
+    content: "|";
+  }
+
+  28% {
+    content: "O|";
+  }
+
+  29% {
+    content: "Ou|";
+  }
+
+  30% {
+    content: "Our|";
+  }
+
+  31% {
+    content: "Our |";
+  }
+
+  32% {
+    content: "Our |";
+  }
+
+  33% {
+    content: "Our M|";
+  }
+
+  34% {
+    content: "Our Ma|";
+  }
+
+  35% {
+    content: "Our Mai|";
+  }
+
+  36% {
+    content: "Our Main|";
+  }
+
+  37% {
+    content: "Our Main |";
+  }
+
+  38% {
+    content: "Our Main S|";
+  }
+
+  39% {
+    content: "Our Main Se|";
+  }
+
+  40% {
+    content: "Our Main Ser|";
+  }
+
+  41% {
+    content: "Our Main Serv|";
+  }
+
+  42% {
+    content: "Our Main Servi|";
+  }
+
+  43% {
+    content: "Our Main Servic|";
+  }
+
+  44% {
+    content: "Our Main Service|";
+  }
+
+  45% {
+    content: "Our Main Services|";
+  }
+
+  46% {
+    content: "Our Main Service|";
+  }
+
+  47% {
+    content: "Our Main Servic|";
+  }
+
+  48% {
+    content: "Our Main Servi|";
+  }
+
+  49% {
+    content: "Our Main Serv|";
+  }
+
+  50% {
+    content: "Our Main Ser|";
+  }
+
+  51% {
+    content: "Our Main S|";
+  }
+
+  52% {
+    content: "Our Main |";
+  }
+
+  53% {
+    content: "Our Main|";
+  }
+
+  54% {
+    content: "Our Mai|";
+  }
+
+  55% {
+    content: "Our Ma|";
+  }
+
+  56% {
+    content: "Our M|";
+  }
+
+  57% {
+    content: "Our |";
+  }
+
+  58% {
+    content: "Our|";
+  }
+
+  59% {
+    content: "Ou|";
+  }
+
+  60% {
+    content: "O|";
+  }
+
+  61% {
+    content: "|";
+  }
+
+  62% {
+    content: "T|";
+  }
+
+  63% {
+    content: "Tr|";
+  }
+
+  64% {
+    content: "Tra|";
+  }
+
+  65% {
+    content: "Tran|";
+  }
+
+  66% {
+    content: "Trans|";
+  }
+
+  67% {
+    content: "Transf|";
+  }
+
+  68% {
+    content: "Transfe|";
+  }
+
+  69% {
+    content: "Transfer|";
+  }
+
+  70% {
+    content: "Transfer |";
+  }
+
+  71% {
+    content: "Transfer M|";
+  }
+
+  72% {
+    content: "Transfer Mo|";
+  }
+
+  73% {
+    content: "Trasfer Mon|";
+  }
+
+  74% {
+    content: "Transfer Mone|";
+  }
+
+  75% {
+    content: "Transfer Money|";
+  }
+
+  76% {
+    content: "Transfer Money|";
+  }
+
+  77% {
+    content: "Transfer Mone|";
+  }
+
+  78% {
+    content: "Transfer Mon|";
+  }
+
+  79% {
+    content: "Transfer Mo|";
+  }
+
+  80% {
+    content: "Transfer M|";
+  }
+
+  81% {
+    content: "Transfe|";
+  }
+
+  82% {
+    content: "Transf|";
+  }
+
+  83% {
+    content: "Trans|";
+  }
+
+  84% {
+    content: "Tran|";
+  }
+
+  85% {
+    content: "Tra|";
+  }
+
+  86% {
+    content: "Tr|";
+  }
+
+  87% {
+    content: "T|";
+  }
+
+  88% {
+    content: "|";
+  }
+
+  89% {
+    content: "|";
+  }
+
+  90% {
+    content: "|";
+  }
+
+  91% {
+    content: "|";
+  }
+
+  92% {
+    content: "|";
+  }
+
+  93% {
+    content: "|";
+  }
+
+  94% {
+    content: "|";
+  }
+
+  95% {
+    content: "|";
+  }
+
+  96% {
+    content: "|";
+  }
+
+  97% {
+    content: "|";
+  }
+
+  98% {
+    content: "|";
+  }
+
+  99% {
+    content: "|";
+  }
+
+  100% {
+    content: "|";
+  }
+}
+.services {
+  background-color: #f5f5f5;
+}
+.services .line {
+  width: 40px;
+  height: 5px;
+  background: blue;
+}
+.t-head {
+  background: #0078ff;
+  border-radius: 3px;
+  padding: 20px 30px;
+  margin-bottom: 5px;
+}
+
+.t-row {
+  background: #95a5a6;
+  border-radius: 3px;
+  padding: 20px 30px;
+  margin-bottom: 5px;
+}
+.t-head .head {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.t-row {
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 0px 3px 0px;
+}
+.serves .icon img {
+  width: 75px;
+}
+.view a {
+  text-decoration: none;
+  color: #333;
+}
+.view a:hover {
+  color: #0078ff;
+  transition: ease-in-out 0.4s;
+}
+.form {
+  padding-top: 100px;
+}
+.contact-content .line2 {
+  width: 40px;
+  height: 5px;
+  background: blue;
+}
+.contact-form button {
+  margin-top: 0.4rem;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: #ffffff;
+  border-radius: 25px;
+  background: #0078ff;
+  border: none;
+}
